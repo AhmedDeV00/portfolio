@@ -1,0 +1,71 @@
+section.hero {
+    margin-top: 3rem;
+}
+
+/* 
+2 .right Section 
+*/
+.animation{
+    width: 100%;
+    translate: 90px 15px;
+}
+@media (max-width:1200px) {
+    section.hero .animation {
+        display: none;
+    }
+}
+
+/* ++++++++++++
+ left-section
+ ++++++++++++++ */
+.leftSection {
+    flex-grow: 1;
+}
+
+section.hero .parent-avatar {
+    min-height: 90px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 99px;
+    border: 1px solid orange;
+    padding: 1px;
+    box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+    margin-right: 0.7rem;
+}
+
+.badge {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 0.3rem;
+}
+
+section.hero h1.title {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 20px 0;
+    color: var(--title-color);
+
+}
+
+section.hero p.sub-title {
+    color: var(--subtitle-color);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+}
+
+section.hero .icons {
+    gap: 20px;
+    width: 45px;
+}
+
+section.hero .icons .icon {
+    transition: 0.3s;
+}
+
+section.hero .icons .icon:hover {
+    cursor: pointer;
+    scale: 1.4;
+}
