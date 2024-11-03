@@ -39,6 +39,14 @@ export const Myprojects = [{
     live: "https://ahmeddev00.github.io/Calculator/"
 },
 {
+    title: "Portfolio",
+    desc: "This project is a personal developer portfolio built with React. Designed to highlight your skills, projects, and experience.",
+    image: "./port.png",
+    category : "react",
+    github: "https://github.com/AhmedDeV00/portfolio.git",
+    live: "https://portfolio-liart-nine-18.vercel.app/"
+},
+{
     title: "php Crud Application",
     desc: "This project is a simple CRUD (Create, Read, Update, Delete) application built using PHP and MySQL.",
     image: "./php_crud.png",
